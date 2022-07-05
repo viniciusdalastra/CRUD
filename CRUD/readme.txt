@@ -1,4 +1,4 @@
-1 - Configurar o banco de dados no "config\bootstrap.php". Deve ser DB Mysql
+1 - Configurar o banco de dados no "config\bootstrap.php" e no "src\Controller\ControllerPadrao". Deve ser DB Mysql
 2 - Deve-se rodar o comando "composer install"
 3 - Deve-se rodar o comando "php vendor\bin\doctrine orm:schema-tool:create" para que as tabelas sejam criadas.
 4 - Rodar o projeto pelo comando "php -S localhost:8080 -t route"
