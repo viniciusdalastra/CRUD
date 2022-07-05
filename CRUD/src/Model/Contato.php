@@ -28,7 +28,7 @@ class Contato
      * @ManyToOne(targetEntity="Pessoa", cascade={"remove"})
      * @JoinColumn(name="pessoa_id", referencedColumnName="id", onDelete="CASCADE")
      */
-    private $pessoa;
+    private $Pessoa;
 
     public function setId($id)
     {
@@ -62,7 +62,7 @@ class Contato
 
     public function getPessoa()
     {
-        return $this->pessoa;
+        return $this->Pessoa;
     }
 
     public function setPessoa(Pessoa $pessoa)
